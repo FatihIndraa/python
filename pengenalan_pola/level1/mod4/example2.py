@@ -1,0 +1,10 @@
+a = 7.543543543
+b = round(a)
+c = round(a,1)
+d = round(a,2)
+e = round(a,3)
+print("a=", a)
+print("b=", b)
+print("c=", c)
+print("d=", d)
+print("e=", e) 

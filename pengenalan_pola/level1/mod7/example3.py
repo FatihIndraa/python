@@ -1,0 +1,10 @@
+cc = 1000
+a = cc/3.1234
+b = cc/47.754
+c = cc/278.96705
+aStr = str(round(a,3))
+bStr = str(round(b,3))
+cStr = str(round(c,3))
+print("aStr=", aStr.rjust(8))
+print("bStr=", bStr.rjust(8))
+print("cStr=", cStr.rjust(8)) 

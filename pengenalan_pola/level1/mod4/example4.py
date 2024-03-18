@@ -1,0 +1,11 @@
+a = 6797.543543543
+b = 48.987487
+c = 7.387652
+aStr = str(round(a,2))
+bStr = str(round(b,2))
+cStr = str(round(c,2))
+print("aStr=", aStr)
+print("bStr=", bStr)
+print("cStr=", cStr)
+print("aStr=", aStr.rjust(8))
+print("bStr=", bStr.rjust(8)) 
