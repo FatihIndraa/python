@@ -1,0 +1,41 @@
+IMPORT os
+
+
+
+OUTPUT ("===== PROGRAM LUAS LINGKARAN =====\n")
+
+
+
+# pemilihan rumus
+
+SET phi TO 3.14
+
+
+
+OUTPUT ("mau pake jari-jari apa diameter broww\n\n1. pake jari-jari (r)\n2. diameter\n")
+
+
+
+SET rumus TO INPUT("pilih nomor 1 atau 2: ")
+
+IF rumus EQUALS "1" :
+
+    SET r TO float (INPUT('masukkan jari-jari: '))
+
+    SET Luas TO phi*(r**2)
+
+    OUTPUT('\njadi luasnya adalah: ', Luas)
+
+ELSEIF rumus EQUALS "2" :
+
+    SET d TO float (INPUT('masukkan diameter: '))
+
+    SET Luas TO 1/4 * (phi * (d**2))
+
+    OUTPUT ('\njadi luasnya adalah: ', Luas)
+
+else :
+
+    os.system ('cls')
+
+    
